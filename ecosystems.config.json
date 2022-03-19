@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "service-health",
+      "script": "app.js",
+      "autorestart": true,
+      "kill_timeout": 60,
+      "exp_backoff_restart_delay": 100,
+      "watch": true,
+      "time": false
+    }
+  ]
+}
